@@ -1,0 +1,203 @@
+/* resposive social media website */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media(min-width:990px){
+    .container{
+        width: 990px;
+        display: flex;
+        gap: 40px;
+        margin: 80px auto;
+    }
+    .feeds{
+        width: 560px;
+    }
+    .feed{
+        border: 1px solid lightgray;
+        width: 560px;
+        border-radius: 14px;
+        padding: 10px;
+        margin-bottom: 24px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    .profile{
+        display: flex;
+        gap: 8px;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+    .user{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .user-name{
+        font-size: 14px;
+        color: gray;
+    }
+    .icon{
+        font-size: 24px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .story-container{
+        display: flex;
+        width: 990px;
+        margin: 40px auto;
+        gap: 12px;
+    }
+    .story{
+        text-align: center;
+    }
+    .story-user{
+        height: 80px;
+        border-radius: 50%;
+        transition: .3s;
+        background: linear-gradient(to right, red, purple);
+        padding: 2px;
+    }
+    .story-user:hover{
+        transform: rotate(4deg);
+    }
+    .story-name{
+        font-size: 14px;
+    }
+    .navbar{
+        width: 990px;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        height: 36px;
+        margin-top: 20px;
+    }
+    .btn{
+        padding: 16px 30px;
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-radius: 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .sidebar-title{
+        margin-top: 0;
+    }
+    .download{
+        display: flex;
+        gap: 10px;
+    }
+    .app{
+        height: 44px;
+    }
+}
+
+hr {
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    padding: 2px auto;
+}
+
+@media(max-width:990px){
+    .container{
+       
+        margin: 80px auto;
+    }
+    .sidebar{
+        text-align: center;
+    }
+    .feed{
+        border: 1px solid lightgray;
+        border-radius: 14px;
+        padding: 10px;
+        margin-bottom: 24px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    .profile{
+        display: flex;
+        gap: 8px;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+    .user{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .user-name{
+        font-size: 14px;
+        color: gray;
+    }
+    .icon{
+        font-size: 24px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .story-container{
+        display: flex;
+        width: 100%;
+        overflow: auto;
+        margin: 40px auto;
+        gap: 12px;
+        
+    }
+    .story{
+        text-align: center;
+    }
+    .story-user{
+        height: 80px;
+        border-radius: 50%;
+        transition: .3s;
+        background: linear-gradient(to right, red, purple);
+        padding: 2px
+    }
+    .story-user:hover{
+        transform: rotate(4deg);
+    }
+    .story-name{
+        font-size: 14px;
+    }
+    .navbar{
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        height: 36px;
+        margin-top: 20px;
+    }
+    .btn{
+        padding: 16px 30px;
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+    .sidebar-title{
+        margin-top: 0;
+    }
+    .download{
+        display: flex;
+        gap: 10px;
+        justify-content: center;;
+    }
+    .app{
+        height: 44px;
+    }
+}
