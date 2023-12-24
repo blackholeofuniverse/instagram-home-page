@@ -48,7 +48,8 @@ body{
     .story-container{
         display: flex;
         width: 990px;
-        margin: 40px auto;
+        margin: 0 auto;
+        margin-top: 40px ;
         gap: 12px;
     }
     .story{
@@ -111,8 +112,7 @@ footer {
 
 @media(max-width:990px){
     .container{
-       
-        margin: 80px auto;
+       margin: 10px auto;
     }
     .sidebar{
         text-align: center;
@@ -152,51 +152,66 @@ footer {
         display: flex;
         width: 100%;
         overflow: auto;
-        margin: 40px auto;
+        margin: 0 auto;
+        margin-top: 20px;
         gap: 12px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
         
     }
+
     .story{
         text-align: center;
     }
+
     .story-user{
-        height: 80px;
+        height: 60px;
         border-radius: 50%;
         transition: .3s;
         background: linear-gradient(to right, red, purple);
-        padding: 2px
+        padding: 1px;
+        margin-top: 10px;
     }
+
     .story-user:hover{
         transform: rotate(4deg);
     }
+
     .story-name{
         font-size: 14px;
     }
+
     .navbar{
         margin: 10px auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+
     .logo{
         height: 36px;
         margin-top: 20px;
     }
+
     .btn{
         padding: 16px 30px;
         background-color: #fff;
         border: 1px solid lightgray;
         border-radius: 12px;
         font-size: 16px;
+        cursor: pointer;
     }
+
     .sidebar-title{
         margin-top: 0;
     }
+
     .download{
         display: flex;
         gap: 10px;
         justify-content: center;;
     }
+
     .app{
         height: 44px;
     }
